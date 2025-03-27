@@ -1,0 +1,52 @@
+/* General Styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #FF5722, #FFC107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-page-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.content-card h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.content-card p {
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.role-options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.role-option {
+    background: rgba(240, 240, 240, 0.8); /* Semi-transparent button */
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    font-size: 18px;
+}
+
+.role-option:hover {
+    background: rgba(255, 87, 34, 0.8); /* Semi-transparent hover state */
+    color: white;
+    transform: translateY(-2px);
+} 
